@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Repostería Hernández</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler boton-hamburguesa" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Brownies" aria-label="Search">
+                        <button class="btn boton-busqueda" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contacto">
+        <h1>¡Contactanos!</h1>
+        <div class="formulario-container">
+            <div class="formulario">
+                <form action="#" class="formulario-contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label for="correo">Correo electronico:</label>
+                    <input type="email" name="correo" id="correo" required>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" name="telefono" id="telefono" required>
+                    <label for="ciudad ">Ciudad:</label>
+                    <input type="text" name="ciudad" id="ciudad" required>
+                    <textarea name="mensaje" cols="20" rows="10" class="area-texto">
+                    </textarea>
+                    <div>
+                        <input type="submit" value="Enviar" class="boton-form">
+                        <input type="reset" value="Borrar" class="boton-form">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <h3>Encuentranos</h3>
+        <div class="maps">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.904805489492!2d-78.4811756!3d-0.11971659999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58564a68ee745%3A0x77d62e61efb9acce!2sConjunto%20Nuevo%20Amanecer!5e0!3m2!1ses!2sec!4v1662397569062!5m2!1ses!2sec"
+                width="90%" height="450" style="border:10;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="social">
+                <ul>
+                    <li class="iconos"><a href="https://www.facebook.com/" target="_blank"><img
+                                src="../img/icons/icons8-facebook.svg" alt="logo de facebook" class="icono-img"></a></li>
+                    <li class="iconos"><a href="https://www.instagram.com/" target="_blank"><img
+                                src="../img/icons/icons8-instagram.svg" alt="logo de instagram" class="icono-img"></a></li>
+                    <li class="iconos"><a href="https://web.whatsapp.com/" target="_blank"><img
+                                src="../img/icons/icons8-whatsapp.svg" alt="logo de whatsapp" class="icono-img"></a></li>
+                </ul>
+            </div>
+            <div class="texto-footer">
+                <p>Pagina creada para CoderHouse - Comision 44190</p>
+                <strong>Todos los derechos reservados - Eduardo Pastrano</strong>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
