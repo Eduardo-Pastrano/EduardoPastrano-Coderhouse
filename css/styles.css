@@ -23,9 +23,9 @@ body {
 
 header {
     background-color: rgb(215, 195, 239);
-    padding: 0.5em;
     width: 100vw;
 }
+
 
 .boton-hamburguesa {
     background-color: white;
@@ -43,6 +43,7 @@ header {
 
 .logo {
     width: 75px;
+    margin-left: 0;
 }
 
 .navbar-brand {
@@ -124,9 +125,9 @@ h2 {
 
 footer {
     margin-top: auto;
-    width: 100vw;
     background-color: rgb(215, 195, 239);
     padding: 0.5em;
+    width: 100vw;
 }
 
 .footer {
