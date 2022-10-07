@@ -1,0 +1,26 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+
+    .formulario-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0.5em 0 0.5em 0;
+
+        .formulario {
+            display: flex;
+            gap: 0.5em;
+            padding: 0.5em;
+
+            .formulario-contacto {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                width: 300px;
+            }
+        }
+    }
+}

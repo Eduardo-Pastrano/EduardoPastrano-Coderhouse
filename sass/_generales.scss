@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    background-color: #f4f4f4;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1.3em;
+    transition: .5s;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(215, 195, 239);
+    width: 100vw;
+
+    nav {
+        .container-fluid {
+            .boton-hamburguesa {
+                background-color: white;
+                border: 3px solid;
+            }
+
+            a {
+                margin-right: 0;
+
+                .logo {
+                    width: 75px;
+                    margin-left: 0;
+                }
+            }
+
+            div {
+                form {
+                    button {
+                        background-color: #f4f4f4;
+                        border-radius: 0.5em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgb(215, 195, 239);
+    padding: 0.5em;
+    width: 100vw;
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .social {
+            ul {
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    a {
+                        img {
+                            width: 32px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .texto-footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0.2em;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
