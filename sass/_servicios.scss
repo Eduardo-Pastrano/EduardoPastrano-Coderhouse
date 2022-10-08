@@ -17,4 +17,37 @@
             align-items: center;
         }
     }
+
+    @media (min-width: 1024px) {
+        
+        .servicios-postres {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 8px;
+            gap: 8px;
+            padding: 5px;
+        }
+
+        .servicios-catering {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 8px;
+            gap: 8px;
+            padding: 5px;
+        }
+
+        .servicios-fiesta {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 8px;
+            gap: 8px;
+            padding: 5px;
+        }
+    }
 }

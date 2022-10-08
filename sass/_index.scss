@@ -34,6 +34,27 @@
             }
         }
     }
+
+    @media (min-width: 500px) {
+        div {
+            .box {
+                border: 6px solid $fondo;
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2.5em;
+
+            .box {
+                border: 10px solid $fondo;
+            }
+        }
+    }
 }
 
 .chef {
@@ -47,3 +68,12 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .chef {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1em;
+        gap: 0.5em;
+    }
+}

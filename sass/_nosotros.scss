@@ -12,3 +12,26 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .nosotros {
+        display: flex;
+        gap: 15px;
+
+        .equipo {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .quienes-somos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 5px;
+        }
+    }
+}
+
+
+

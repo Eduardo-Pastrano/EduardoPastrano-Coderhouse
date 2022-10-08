@@ -20,3 +20,19 @@ h2 {
     text-align: justify;
     margin: 8px;
 }
+
+@media (min-width: 1024px) {
+    .informacion-servicios {
+            font-size: 1.5em;
+    }
+
+    .informacion-nosotros {
+        @extend .informacion-servicios
+    }
+
+    .servicios-texto {
+        div {
+            font-size: 2em;
+        }
+    }
+}

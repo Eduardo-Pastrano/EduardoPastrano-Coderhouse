@@ -20,3 +20,56 @@
     width: 150px;
     border: 2px solid $fondo3;
 }
+
+.icono-img {
+    width: 32px;
+}
+
+@media (min-width: 500px) {
+    .img-destacado {
+        width: $tablet;
+    }
+
+    .chef-img {
+        width: $tablet;
+        border: 6px solid $fondo;
+    }
+
+    .menu-grilla img {
+        border: 8px solid $fondo3;
+    }
+
+    .servicios-img, .nosotros-img {
+        width: $tablet;
+        border: 6px solid $fondo;
+    }
+
+    .icono-img {
+        width: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-destacado {
+        width: $desktop;
+    }
+
+    .chef-img {
+        width: $desktop;
+        border: 10px solid $fondo;
+    }
+
+    .menu-grilla img {
+        width: $desktop;
+        border: 10px solid $fondo3;
+    }
+
+    .servicios-img, .nosotros-img {
+        width: $desktop;
+        border: 10px solid $fondo;
+    }
+
+    .icono-img {
+        width: 75px;
+    }
+}

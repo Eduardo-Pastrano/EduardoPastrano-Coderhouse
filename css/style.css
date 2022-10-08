@@ -72,9 +72,6 @@ footer .footer .social ul li {
   justify-content: center;
   align-items: center;
 }
-footer .footer .social ul li a img {
-  width: 32px;
-}
 footer .footer .texto-footer {
   display: flex;
   flex-direction: column;
@@ -85,6 +82,16 @@ footer .footer .texto-footer {
 }
 footer .footer .texto-footer p {
   margin-bottom: 0;
+}
+@media (min-width: 500px) {
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer .social ul {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .boton-busqueda:hover {
@@ -130,6 +137,49 @@ a:visited {
   border: 2px solid rgb(195, 172, 224);
 }
 
+.icono-img {
+  width: 32px;
+}
+
+@media (min-width: 500px) {
+  .img-destacado {
+    width: 250px;
+  }
+  .chef-img {
+    width: 250px;
+    border: 6px solid rgb(215, 195, 239);
+  }
+  .menu-grilla img {
+    border: 8px solid rgb(195, 172, 224);
+  }
+  .servicios-img, .nosotros-img {
+    width: 250px;
+    border: 6px solid rgb(215, 195, 239);
+  }
+  .icono-img {
+    width: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .img-destacado {
+    width: 300px;
+  }
+  .chef-img {
+    width: 300px;
+    border: 10px solid rgb(215, 195, 239);
+  }
+  .menu-grilla img {
+    width: 300px;
+    border: 10px solid rgb(195, 172, 224);
+  }
+  .servicios-img, .nosotros-img {
+    width: 300px;
+    border: 10px solid rgb(215, 195, 239);
+  }
+  .icono-img {
+    width: 75px;
+  }
+}
 h1 {
   margin-bottom: 0;
   text-align: center;
@@ -152,12 +202,35 @@ h2 {
   margin: 8px;
 }
 
+@media (min-width: 1024px) {
+  .informacion-servicios, .informacion-nosotros {
+    font-size: 1.5em;
+  }
+  .servicios-texto div {
+    font-size: 2em;
+  }
+}
 .menu-grilla {
   display: grid;
   gap: 0.5em;
   grid-template-columns: 1fr;
 }
 
+@media (min-width: 500px) {
+  .menu-grilla {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "item item" "item item" "item item";
+  }
+}
+@media (min-width: 1024px) {
+  .menu-grilla {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .banner {
   display: flex;
   flex-direction: column;
@@ -190,6 +263,22 @@ h2 {
   padding: 5px;
   font-weight: bold;
 }
+@media (min-width: 500px) {
+  .productos-destacados div .box {
+    border: 6px solid rgb(215, 195, 239);
+  }
+}
+@media (min-width: 1024px) {
+  .productos-destacados div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5em;
+  }
+  .productos-destacados div .box {
+    border: 10px solid rgb(215, 195, 239);
+  }
+}
 
 .chef {
   display: flex;
@@ -201,6 +290,15 @@ h2 {
   margin: 0.5em;
 }
 
+@media (min-width: 1024px) {
+  .chef {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+    gap: 0.5em;
+  }
+}
 .menu {
   display: flex;
   flex-direction: column;
@@ -248,6 +346,35 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  .servicios .servicios-postres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    gap: 8px;
+    padding: 5px;
+  }
+  .servicios .servicios-catering {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    gap: 8px;
+    padding: 5px;
+  }
+  .servicios .servicios-fiesta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    gap: 8px;
+    padding: 5px;
+  }
+}
 
 .nosotros {
   display: flex;
@@ -262,6 +389,24 @@ h2 {
   margin: 8px;
 }
 
+@media (min-width: 1024px) {
+  .nosotros {
+    display: flex;
+    gap: 15px;
+  }
+  .nosotros .equipo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5px;
+  }
+  .nosotros .quienes-somos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+}
 .contacto {
   display: flex;
   flex-direction: column;
@@ -295,6 +440,18 @@ h2 {
   border-radius: 8px;
   width: 80px;
 }
+@media (min-width: 500px) {
+  .contacto .formulario-container .formulario .formulario-contacto {
+    gap: 4px;
+    width: 500px;
+  }
+}
+@media (min-width: 1024px) {
+  .contacto .formulario-container .formulario .formulario-contacto {
+    gap: 5px;
+    width: 700px;
+  }
+}
 .contacto .maps {
   display: flex;
   justify-content: center;
@@ -303,137 +460,4 @@ h2 {
 }
 .contacto .maps .mapa {
   width: 95vw;
-}
-
-@media (min-width: 500px) {
-  .img-destacado {
-    width: 250px;
-  }
-  .box {
-    border: 10px solid rgb(215, 195, 239);
-  }
-  .chef-img {
-    width: 250px;
-  }
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-  .social ul {
-    display: flex;
-    flex-direction: row;
-  }
-  .icono-img {
-    width: 50px;
-  }
-  .menu-grilla {
-    display: grid;
-    gap: 0.5em;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "item item" "item item" "item item";
-  }
-  .menu-grilla img {
-    border: 8px solid rgb(195, 172, 224);
-  }
-  .servicios-img, .nosotros-img {
-    width: 250px;
-  }
-  .formulario-contacto {
-    gap: 4px;
-    width: 500px;
-  }
-}
-@media (min-width: 1024px) {
-  .box-container {
-    display: flex;
-    flex-direction: row;
-    gap: 2.5em;
-  }
-  .img-destacado {
-    width: 300px;
-  }
-  .box {
-    border: 10px solid rgb(215, 195, 239);
-  }
-  .chef {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1em;
-    gap: 0.5em;
-  }
-  .chef-img {
-    width: 275px;
-    border: 10px solid rgb(215, 195, 239);
-  }
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-  .social ul {
-    display: flex;
-    flex-direction: row;
-  }
-  .icono-img {
-    width: 75px;
-  }
-  .menu-grilla {
-    display: grid;
-    gap: 1em;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .menu-grilla img {
-    border: 8px solid rgb(195, 172, 224);
-  }
-  .servicios-img, .nosotros-img {
-    width: 300px;
-    border: 5px solid rgb(215, 195, 239);
-  }
-  .servicios-texto p, .nosotros-texto p {
-    font-size: 1.5em;
-  }
-  .servicios-texto div {
-    font-size: 2em;
-  }
-  .servicios-postres {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 8px;
-    gap: 8px;
-    padding: 5px;
-  }
-  .servicios-catering {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin: 8px;
-    gap: 8px;
-    padding: 5px;
-  }
-  .servicios-fiesta {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 8px;
-    gap: 8px;
-    padding: 5px;
-  }
-  .nosotros {
-    display: flex;
-    gap: 15px;
-  }
-  .equipo {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 5px;
-  }
-  .formulario-contacto {
-    gap: 4px;
-    width: 700px;
-  }
 }/*# sourceMappingURL=style.css.map */

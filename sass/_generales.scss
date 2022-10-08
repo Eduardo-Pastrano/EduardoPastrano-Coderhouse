@@ -84,12 +84,6 @@ footer {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
-                    a {
-                        img {
-                            width: 32px;
-                        }
-                    }
                 }
             }
         }
@@ -104,6 +98,20 @@ footer {
 
             p {
                 margin-bottom: 0;
+            }
+        }
+    }
+
+    @media (min-width: 500px) {
+        .footer {
+            display: flex;
+            flex-direction: column;
+
+            .social {
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                }
             }
         }
     }
