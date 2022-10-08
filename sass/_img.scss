@@ -1,9 +1,10 @@
 .servicios-img, .nosotros-img{
-    width: 200px;
+    width: $mobile;
+    border: 4px solid $fondo;
 }
 
 .img-destacado {
-    width: 200px;
+    width: $mobile;
 }
 
 .banner-img {
@@ -11,11 +12,11 @@
 }
 
 .chef-img {
-    width: 200px;
-    border: 4px solid rgb(215, 195, 239);
+    width: $mobile;
+    border: 4px solid $fondo;
 }
 
 .menu-grilla img {
     width: 150px;
-    border: 2px solid rgb(195, 172, 224);
+    border: 2px solid $fondo3;
 }

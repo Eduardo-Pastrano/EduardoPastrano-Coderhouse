@@ -37,7 +37,7 @@ header {
   width: 100vw;
 }
 header nav .container-fluid .boton-hamburguesa {
-  background-color: white;
+  background-color: #f4f4f4;
   border: 3px solid;
 }
 header nav .container-fluid a {
@@ -91,6 +91,10 @@ footer .footer .texto-footer p {
   background-color: rgb(156, 135, 181);
 }
 
+.boton-form:hover {
+  background-color: rgb(156, 135, 181);
+}
+
 nav li:hover {
   background-color: rgb(156, 135, 181);
 }
@@ -101,6 +105,57 @@ nav li:hover {
 
 a:visited {
   color: black;
+}
+
+.servicios-img, .nosotros-img {
+  width: 200px;
+  border: 4px solid rgb(215, 195, 239);
+}
+
+.img-destacado {
+  width: 200px;
+}
+
+.banner-img {
+  width: 100vw;
+}
+
+.chef-img {
+  width: 200px;
+  border: 4px solid rgb(215, 195, 239);
+}
+
+.menu-grilla img {
+  width: 150px;
+  border: 2px solid rgb(195, 172, 224);
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.descripcion-titulo {
+  font-weight: bold;
+}
+
+.nosotros-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 8px;
+}
+
+.menu-grilla {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr;
 }
 
 .banner {
@@ -230,82 +285,23 @@ a:visited {
   gap: 2px;
   width: 300px;
 }
-
-.menu-grilla {
-  display: grid;
-  gap: 0.5em;
-  grid-template-columns: 1fr;
-}
-
-h1 {
-  margin-bottom: 0;
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-  margin: 0.5em 0 0.5em 0;
-}
-
-.descripcion-titulo {
-  font-weight: bold;
-}
-
-.nosotros-texto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  margin: 8px;
-}
-
-.servicios-img, .nosotros-img {
-  width: 200px;
-}
-
-.img-destacado {
-  width: 200px;
-}
-
-.banner-img {
-  width: 100vw;
-}
-
-.chef-img {
-  width: 200px;
-  border: 4px solid rgb(215, 195, 239);
-}
-
-.menu-grilla img {
-  width: 150px;
-  border: 2px solid rgb(195, 172, 224);
-}
-
-.area-texto {
+.contacto .formulario-container .formulario .formulario-contacto .area-texto {
   margin-top: 0.5em;
 }
-
-.boton-form {
-  background-color: #f4f4f4;
+.contacto .formulario-container .formulario .formulario-contacto .boton-form {
   padding: 5px;
   margin: 5px;
   transition: 0.5s;
   border-radius: 8px;
   width: 80px;
 }
-
-.boton-form:hover {
-  background-color: rgb(156, 135, 181);
-}
-
-.maps {
+.contacto .maps {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0.5em 0 0.5em 0;
 }
-
-.mapa {
+.contacto .maps .mapa {
   width: 95vw;
 }
 

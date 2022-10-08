@@ -1,42 +1,14 @@
+@import "variables";
 @import "generales";
 @import "efectos";
+@import "img";
+@import "textos";
+@import "grid";
 @import "index";
 @import "menu";
 @import "servicios";
 @import "nosotros";
 @import "contacto";
-@import "grid";
-@import "textos";
-@import "img";
-
-
-.area-texto {
-    margin-top: 0.5em;
-}
-
-.boton-form {
-    background-color: #f4f4f4;
-    padding: 5px;
-    margin: 5px;
-    transition: .5s;
-    border-radius: 8px;
-    width: 80px;
-}
-
-.boton-form:hover {
-    background-color: rgb(156, 135, 181);
-}
-
-.maps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5em 0 0.5em 0;
-}
-
-.mapa {
-    width: 95vw;
-}
 
 @media (min-width: 500px) {
     .img-destacado {

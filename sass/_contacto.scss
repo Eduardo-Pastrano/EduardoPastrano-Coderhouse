@@ -20,7 +20,30 @@
                 flex-direction: column;
                 gap: 2px;
                 width: 300px;
+
+                .area-texto {
+                    margin-top: 0.5em;
+                }
+
+                .boton-form {
+                    padding: 5px;
+                    margin: 5px;
+                    transition: .5s;
+                    border-radius: 8px;
+                    width: 80px;
+                }
             }
+        }
+    }
+
+    .maps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em 0 0.5em 0;
+
+        .mapa {
+            width: 95vw;
         }
     }
 }

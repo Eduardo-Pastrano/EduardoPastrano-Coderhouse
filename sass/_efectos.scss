@@ -1,10 +1,14 @@
 .boton-busqueda:hover {
-    background-color: rgb(156, 135, 181);
+    background-color: $fondo2;
+}
+
+.boton-form:hover {
+    background-color: $fondo2;
 }
 
 nav 
     li:hover {
-        background-color: rgb(156, 135, 181);
+        background-color: $fondo2;
 }
 
 // Esto al ser de bootstrap no me permitia cambiar nada
@@ -16,4 +20,3 @@ nav
 a:visited {
     color:black;
 }
-

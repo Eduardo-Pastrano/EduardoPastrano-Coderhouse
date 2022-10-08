@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: $fondo1;
     font-family: 'Mukta', sans-serif;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ a {
 }
 
 nav li {
-    background-color: #f4f4f4;
+    background-color: $fondo1;
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 1.3em;
@@ -33,13 +33,13 @@ nav li {
 }
 
 header {
-    background-color: rgb(215, 195, 239);
+    background-color: $fondo;
     width: 100vw;
 
     nav {
         .container-fluid {
             .boton-hamburguesa {
-                background-color: white;
+                background-color: $fondo1;
                 border: 3px solid;
             }
 
@@ -55,7 +55,7 @@ header {
             div {
                 form {
                     button {
-                        background-color: #f4f4f4;
+                        background-color: $fondo1;
                         border-radius: 0.5em;
                     }
                 }
@@ -66,7 +66,7 @@ header {
 
 footer {
     margin-top: auto;
-    background-color: rgb(215, 195, 239);
+    background-color: $fondo;
     padding: 0.5em;
     width: 100vw;
 
