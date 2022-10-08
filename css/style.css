@@ -8,7 +8,6 @@ body {
   font-family: "Mukta", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-height: 100vh;
 }
 
@@ -60,15 +59,19 @@ footer {
 }
 footer .footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 footer .footer .social ul {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer .social ul li {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -87,10 +90,14 @@ footer .footer .texto-footer p {
   footer .footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   footer .footer .social ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 
