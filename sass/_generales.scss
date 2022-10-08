@@ -74,7 +74,7 @@ footer {
 
         .social {
             ul {
-                @include flex-mobile;
+                @include flex-column;
 
                 li {
                     @include flex-row;
@@ -83,7 +83,7 @@ footer {
         }
 
         .texto-footer {
-            @include flex-mobile;
+            @include flex-column;
             text-align: center;
             margin: 0.2em;
 
@@ -95,7 +95,7 @@ footer {
 
     @media (min-width: 500px) {
         .footer {
-            @include flex-mobile;
+            @include flex-column;
 
             .social {
                 ul {

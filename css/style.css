@@ -204,6 +204,7 @@ h2 {
 .nosotros-texto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: justify;
   margin: 8px;
@@ -241,8 +242,8 @@ h2 {
 .banner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   margin: 10px;
   gap: 0.5em;
 }
@@ -250,18 +251,21 @@ h2 {
 .productos-destacados {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 .productos-destacados div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 .productos-destacados div .box {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border: 4px solid rgb(215, 195, 239);
@@ -280,6 +284,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 2.5em;
   }
   .productos-destacados div .box {
@@ -290,6 +295,7 @@ h2 {
 .chef {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: justify;
 }
@@ -302,6 +308,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 1em;
     gap: 0.5em;
   }
@@ -338,20 +345,24 @@ h2 {
 .servicios {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1em;
   margin: 0.5em;
 }
 .servicios .servicios-postres, .servicios .servicios-catering, .servicios .servicios-fiesta {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   margin: 8px;
 }
 .servicios .servicios-postres .servicios-texto, .servicios .servicios-catering .servicios-texto, .servicios .servicios-fiesta .servicios-texto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 @media (min-width: 1024px) {
   .servicios .servicios-postres {
@@ -386,11 +397,14 @@ h2 {
 .nosotros {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0.5em;
 }
 .nosotros .quienes-somos, .nosotros .equipo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: justify;
   margin: 8px;
@@ -411,6 +425,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 5px;
   }
 }
@@ -461,6 +476,7 @@ h2 {
 }
 .contacto .maps {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0.5em 0 0.5em 0;

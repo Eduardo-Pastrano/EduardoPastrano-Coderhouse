@@ -1,18 +1,12 @@
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column;
 
     .mas-vendidos {
         background-color: $fondo3;
         width: 100vw;
 
         .box-mas-vendidos {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex-column;
 
             .lista-menu {
                 display: flex;

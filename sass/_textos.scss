@@ -14,9 +14,7 @@ h2 {
 }
 
 .nosotros-texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column;
     text-align: justify;
     margin: 8px;
 }

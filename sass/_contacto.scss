@@ -1,8 +1,5 @@
 .contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column;
     margin: 0.5em;
 
     .formulario-container {
@@ -51,9 +48,7 @@
     }
 
     .maps {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-row;
         margin: 0.5em 0 0.5em 0;
 
         .mapa {
