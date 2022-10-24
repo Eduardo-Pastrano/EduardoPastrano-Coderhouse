@@ -1,6 +1,10 @@
 .servicios {
     @include flex-column;
-    margin: 0.5em;
+    margin: 100px 0.5em 0.5em 0.5em;
+
+    h1 {
+        margin: 8px
+    }
 
     .servicios-postres, .servicios-catering, .servicios-fiesta {
         @include flex-column;

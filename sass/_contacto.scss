@@ -1,6 +1,10 @@
 .contacto {
     @include flex-column;
-    margin: 0.5em;
+    margin: 100px 0.5em 0.5em 0.5em;
+
+    h1 {
+        margin: 8px 8px 0 8px;
+    }
 
     .formulario-container {
         display: flex;

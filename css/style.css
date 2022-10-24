@@ -250,6 +250,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .productos-destacados h2 {
   margin: 8px;
@@ -320,6 +321,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 .menu .mas-vendidos {
   background-color: rgb(195, 172, 224);
@@ -349,7 +351,10 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0.5em;
+  margin: 100px 0.5em 0.5em 0.5em;
+}
+.servicios h1 {
+  margin: 8px;
 }
 .servicios .servicios-postres, .servicios .servicios-catering, .servicios .servicios-fiesta {
   display: flex;
@@ -406,7 +411,10 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0.5em;
+  margin: 100px 0.5em 0.5em 0.5em;
+}
+.nosotros h1 {
+  margin: 8px 8px 0 8px;
 }
 .nosotros .quienes-somos, .nosotros .equipo {
   display: flex;
@@ -414,7 +422,16 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  margin: 8px;
+  margin-bottom: 15px;
+}
+.nosotros .quienes-somos .nosotros-texto, .nosotros .equipo .nosotros-texto {
+  margin: 0px;
+}
+.nosotros .quienes-somos .nosotros-texto h2, .nosotros .equipo .nosotros-texto h2 {
+  margin: 0px 8px 5px 8px;
+}
+.nosotros .quienes-somos .nosotros-texto p, .nosotros .equipo .nosotros-texto p {
+  margin: 0 10px 10px 10px;
 }
 
 @media (min-width: 1024px) {
@@ -441,7 +458,10 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0.5em;
+  margin: 100px 0.5em 0.5em 0.5em;
+}
+.contacto h1 {
+  margin: 8px 8px 0 8px;
 }
 .contacto .formulario-container {
   display: flex;

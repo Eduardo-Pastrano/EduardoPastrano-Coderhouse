@@ -1,5 +1,6 @@
 .menu {
     @include flex-column;
+    margin-top: 100px;
 
     .mas-vendidos {
         background-color: $fondo3;

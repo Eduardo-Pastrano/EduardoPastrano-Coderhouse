@@ -1,11 +1,27 @@
 .nosotros {
     @include flex-column;
-    margin: 0.5em;
+    margin: 100px 0.5em 0.5em 0.5em;
+
+    h1 {
+        margin: 8px 8px 0 8px;
+    }
 
     .quienes-somos, .equipo {
         @include flex-column;
         text-align: justify;
-        margin: 8px;
+        margin-bottom: 15px;
+
+        .nosotros-texto {
+            margin: 0px;
+
+            h2 {
+                margin: 0px 8px 5px 8px;
+            }
+
+            p {
+                margin: 0 10px 10px 10px;
+            }
+        }
     }
 }
 
