@@ -33,7 +33,6 @@ nav li {
 
 header {
     background-color: $fondo;
-    width: 100vw;
 
     nav {
         .container-fluid {
@@ -67,7 +66,6 @@ footer {
     margin-top: auto;
     background-color: $fondo;
     padding: 0.5em;
-    width: 100vw;
 
     .footer {
         @include flex-row;

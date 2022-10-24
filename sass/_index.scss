@@ -1,13 +1,18 @@
 .banner {
     @include flex-column;
-    margin: 10px;
-    gap: 0.5em
+    margin-top: 100px;
+
+    h1 {
+        margin: 8px;
+    }
 }
 
 .productos-destacados {
     @include flex-column;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+
+    h2 {
+        margin: 8px;
+    }
 
     div {
         @include flex-column;
@@ -41,6 +46,7 @@
 
             .box {
                 border: 10px solid $fondo;
+                border-radius: 10px;
             }
         }
     }
@@ -51,14 +57,18 @@
     text-align: justify;
 
     .chef-texto {
-        margin: 0.5em;
-    }
-}
+        margin: 0 25px 0 25px;
 
-@media (min-width: 1024px) {
-    .chef {
-        @include flex-row;
-        margin: 1em;
-        gap: 0.5em;
+        p {
+            margin-top: 15px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .chef {
+            @include flex-row;
+            margin: 1em;
+            gap: 0.5em;
+        }
     }
 }

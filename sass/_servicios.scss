@@ -1,15 +1,22 @@
 .servicios {
     @include flex-column;
-    gap: 1em;
     margin: 0.5em;
 
     .servicios-postres, .servicios-catering, .servicios-fiesta {
         @include flex-column;
-        margin: 8px;  
+        margin: 0 8px 8px 8px;
 
         .servicios-texto {
             @include flex-column;
             text-align: justify;
+
+            div {
+                margin: 5px  5px 2px 5px;
+            }
+
+            p {
+                margin-bottom: 8px;
+            }
         }
     }
 

@@ -15,12 +15,12 @@
     <link rel="icon" href="./img/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Repostería Hernández - Made with love</title>
+    <title>Repostería Hernández | Made with love</title>
     <meta name="description" content="En la Reportería Hernández vas a conseguir un mundo de sabores para disfrutar en familia o incluso en una reunion de trabajo. En nuestra repostería puedes encontrar los dulces mas sabroso para deleitar tu paladar y el de tus amigos y familiares. Ven y prueba nuestros pasteles, brownies y mucho más!">
 </head>
 
 <body>
-    <header>
+    <header class="fixed-top">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler boton-hamburguesa" type="button" data-bs-toggle="collapse"
@@ -59,7 +59,7 @@
     <main>
         <section class="banner">
             <h1 class="banner-texto">¡Le damos la bienvenida a la Repostería Hernández!</h1>
-            <img src="./img/banner2.jpg" alt="imagen de una bandeja de postres" class="banner-img">
+            <img src="./img/banner2.jpg" alt="imagen de una bandeja de postres" class="img-fluid banner-img">
         </section>
 
         <section class="productos-destacados">
@@ -84,26 +84,44 @@
                         <div class="productos-texto">Brownie</div>
                     </a>
                 </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                    <a href="./sections/menu.html">
+                        <img src="img/menu/cheesecake-chocolate.jpg" alt="cheesecake de chocolate"
+                            class="img-destacado">
+                        <div class="productos-texto">Cheesecake de Chocolate</div>
+                    </a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                    <a href="./sections/menu.html">
+                        <img src="img/menu/tiramisu.jpg" alt="tiramisu" class="img-destacado">
+                        <div class="productos-texto">Tiramisú</div>
+                    </a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                    <a href="./sections/menu.html">
+                        <img src="img/menu/brownies-chocolate.jpg" alt="brownies de chocolate" class="img-destacado">
+                        <div class="productos-texto">Brownie</div>
+                    </a>
+                </div>
             </div>
         </section>
 
-        <h2>Nuestro Chef</h2>
-        <section class="chef">
-            <div>
+        <section class="chef-container">
+            <h2>Nuestro Chef</h2>
+            <div class="chef">
                 <img src="img/chef-buddy.webp" alt="imagen del chef Buddy" class="chef-img">
-            </div>
-            <div class="chef-texto">
-                <p>Bartolo "Buddy" Valastro Jr, es un pastelero y empresario, y principalmente nuestro chef! Hizo su
-                    primer pastel el 17 de abril de 1988, a los once años.
-                </p>
-
-                <p>
-                    Valastro empezó a hacer su primer pastel el 17 de abril de 1988, a los once años. Lo hizo para su
-                    madre, quien cumplía cuarenta años y su padre no se sentía seguro de darle la responsabilidad de
-                    hornear el pastel, pero ante la insistencia de su hijo, le permitió hacerse cargo de la sorpresa. El
-                    pastel era italiano de ron, con un relleno de chocolate y vainilla. Como decoración, añadió la frase
-                    «I Love Mom» (Te amo mamá, en español).
-                </p>
+                <div class="chef-texto">
+                    <p>Bartolo "Buddy" Valastro Jr, es un pastelero y empresario, y principalmente nuestro chef! Hizo su
+                        primer pastel el 17 de abril de 1988, a los once años.
+                    </p>
+                    <p>
+                        Valastro empezó a hacer su primer pastel el 17 de abril de 1988, a los once años. Lo hizo para su
+                        madre, quien cumplía cuarenta años y su padre no se sentía seguro de darle la responsabilidad de
+                        hornear el pastel, pero ante la insistencia de su hijo, le permitió hacerse cargo de la sorpresa. El
+                        pastel era italiano de ron, con un relleno de chocolate y vainilla. Como decoración, añadió la frase
+                        «I Love Mom» (Te amo mamá, en español).
+                    </p>
+                </div>
             </div>
         </section>
     </main>

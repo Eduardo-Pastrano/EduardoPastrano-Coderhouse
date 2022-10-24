@@ -3,7 +3,7 @@
 
     .mas-vendidos {
         background-color: $fondo3;
-        width: 100vw;
+        width: 100%;
 
         .box-mas-vendidos {
             @include flex-column;
@@ -16,7 +16,7 @@
     }
 
     .menu-grilla {
-        margin: 10px 0 10px 5px;
+        margin: 10px;
 
         .box-menu {
             display: flex;
