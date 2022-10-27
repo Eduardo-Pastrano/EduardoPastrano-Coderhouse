@@ -9,7 +9,7 @@
 
 .productos-destacados {
     @include flex-column;
-    gap: 10px;
+    gap: 15px;
 
     h2 {
         margin: 8px;
@@ -17,7 +17,7 @@
 
     div {
         @include flex-column;
-        gap: 5px;
+        gap: 15px;
 
         .box {
             @include flex-row;
@@ -43,7 +43,7 @@
     @media (min-width: 1024px) {
         div {
             @include flex-row;
-            gap: 2.5em;
+            gap: 100px;
 
             .box {
                 border: 10px solid $fondo;

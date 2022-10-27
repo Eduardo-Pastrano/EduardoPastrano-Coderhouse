@@ -12,9 +12,11 @@
     border: 4px solid $fondo;
 }
 
-.menu-grilla img {
-    width: 150px;
-    border: 5px solid $fondo3;
+.menu-grilla {
+    img {
+        width: 150px;
+        border: 5px solid $fondo3;
+    }
 }
 
 .icono-img {

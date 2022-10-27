@@ -250,7 +250,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .productos-destacados h2 {
   margin: 8px;
@@ -260,7 +260,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
 }
 .productos-destacados div .box {
   display: flex;
@@ -284,7 +284,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2.5em;
+    gap: 100px;
   }
   .productos-destacados div .box {
     border: 10px solid rgb(215, 195, 239);
@@ -338,7 +338,7 @@ h2 {
   gap: 1em;
 }
 .menu .menu-grilla {
-  margin: 10px;
+  margin: 25px;
 }
 .menu .menu-grilla .box-menu {
   display: flex;
